@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MilTech Enterprises Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://images.unsplash.com/photo-1658204212985-e0126040f88f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80"
+            alt="figma logo"
+            width="100"
+          />
+          <p class="header-text">MilTech Enterprise</p>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container-wrapper">
+        <section id="about">
+          <h1 class="section-header">About</h1>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/u0qkd7EikyM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="services">
+          <h1 class="section-header">Services</h1>
+          <div class="service-page">
+            <img
+              src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt="web design image"
+              width="400"
+            />
+            <p class="img-description">Web Design</p>
+            <img
+              src="https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              alt="seo image"
+              width="400"
+            />
+            <p class="img-description">SEO</p>
+            <img
+              src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              alt="content marketing image"
+              width="400"
+            />
+            <p class="img-description">Content Marketing</p>
+          </div>
+        </section>
+        <section id="pricing">
+          <h1 class="section-header">Pricing</h1>
+          <div class="product" id="web-design">
+            <div class="tier">Web Design</div>
+            <h2>$100</h2>
+            <ol>
+              <li>Create</li>
+              <li>Design</li>
+              <li>Market</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="seo">
+            <div class="tier">SEO</div>
+            <h2>$200</h2>
+            <ol>
+              <li>Google SEO</li>
+              <li>Search Engine Ranking</li>
+              <li>Drive Traffic</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="content-marketing">
+            <div class="tier">Content Marketing</div>
+            <h2>$300</h2>
+            <ol>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>TikTok</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <section id="contact">
+          <h1 class="section-header">Contact Me</h1>
+          <div class="contact-page">
+            <p class="message">Send me a message!</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <input
+                id="submit"
+                type="submit"
+                value="Send Message"
+                class="btn"
+              />
+            </form>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2022, GloBoiVic</span>
+      </footer>
+    </div>
+  </body>
+</html>
